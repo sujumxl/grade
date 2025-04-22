@@ -64,6 +64,10 @@ body {
         height: calc((100% - 30px) / 2) !important;
         width: calc((100% - 30px) / 2) !important;
     }
+
+    .mycard swiper-slide img{
+        width: fit-content;
+    }
 }
 
 
