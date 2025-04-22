@@ -17,7 +17,7 @@ body {
     padding: 0;
 } */
 
-@media(max-width: 800px){
+@media(max-width: 600px){
     body{
         grid-template-columns: 1fr;
         width: fit-content;
@@ -62,7 +62,7 @@ body {
         font-size: 18px;
         background: #fff;
         height: calc((100% - 30px) / 2) !important;
-        width: 90%;
+        width: calc((100% - 30px) / 2) !important;
     }
 }
 
