@@ -42,7 +42,12 @@ body {
         object-fit: fill ;
     }
     
-    
+     .myswiper swiper-slide img{
+        display: block;
+        width: auto;
+        height: 50rem;
+        object-fit: fill ;
+    }
     
     
     grid-container {
