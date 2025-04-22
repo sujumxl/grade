@@ -22,6 +22,43 @@ body {
         grid-template-columns: 1fr;
         width: fit-content;
     }
+
+    swiper-container {
+        width: auto;
+        height: fit-content;
+    }
+    
+    swiper-slide {
+        width: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    swiper-slide img {
+        display: block;
+        width: auto;
+        height: 50rem;
+        object-fit: fill ;
+    }
+    
+    
+    
+    
+    grid-container {
+        width: auto
+        height: 500px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    grid-slide {
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
+        height: calc((100% - 30px) / 2) !important;
+        width: 90%;
+    }
 }
 
 
