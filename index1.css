@@ -103,6 +103,7 @@ swiper-slide {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: min(2rem, 8%);
 }
 
 swiper-slide img {
