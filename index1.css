@@ -1,0 +1,594 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* body {
+    position: relative;
+    height: 100%;
+}
+
+body {
+    background: #eee;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #000;
+    margin: 0;
+    padding: 0;
+} */    
+    
+    
+
+header{
+    background-color: pink;
+    /* position: sticky; */
+    top: 0;
+}
+
+.img1{
+    width: 300px;
+    height: 150px;
+}
+
+.img2{
+    width: 200px;
+    height: 200px;
+}
+
+.div1{
+    padding: 20px;
+    box-sizing: border-box;
+    box-shadow: 0 0 10px;
+}
+
+h1{
+    text-align: center;
+    font-weight: bolder;
+    height: fit-content;
+}
+
+/* .div1 ul{
+    list-style: none;
+   background: #22438c;
+}
+
+.div1 ul li{
+    display: inline-block;
+    position: relative;
+}
+
+.div1 ul li a{
+    display: block;
+    padding: 10px 15px;
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+    font-size: 20px;
+}
+
+.dropdown{
+    display: none;
+    width: 100%;
+    background: #22438c;
+    position: absolute;
+    z-index: 999;
+}
+
+.dropdown li{
+    display: block;
+}
+
+.div1 ul li a:hover{
+    background: rgb(207, 48, 48);
+    transition: 0.3s;
+}
+
+.div1 ul li:hover ul.dropdown{
+    display: block;
+} */
+
+
+
+swiper-container {
+    width: auto;
+    height: fit-content;
+    margin-bottom: 20px;
+    padding: min(2re, 8%);
+}
+
+swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 50rem;
+    object-fit: fill ;
+}
+
+
+
+
+grid-container {
+    width: 100%;
+    height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+grid-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    height: calc((100% - 30px) / 2) !important;
+    width: 90%;
+
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+    gap: 20px;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    margin-left: auto;
+    margin-right: auto;
+    /* margin-top: 10rem;
+    margin-bottom: 10rem; */
+    /* padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 90px;
+    padding-right: 90px; */
+    padding: 90px;
+}
+
+.slide1{
+    margin: auto;
+}
+
+.slide2{
+    margin: auto;
+}
+
+.slide3{
+    margin: auto;
+}
+
+.slide4{
+    margin: auto;
+}
+
+
+/* ------------------------printing starts---------------------------------- */
+
+.headline {
+    font-size: 3rem;
+    font-weight: 600;
+    color: #222;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    text-wrap: wrap;
+    width: 70%;
+    text-align: center;
+    display: inline-block;
+    font-family: Bebas Neue, Sans-serif, all system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.description {
+    font-size: 1.5rem;
+    line-height: 1.7;
+    color: black;
+    text-decoration: wavy;
+    width: 70%;
+    text-align: center;
+    margin: auto;
+    display: inline-block;
+    font-family: sans-serif;
+}
+
+.mycard{
+    width: 700px;
+    height: 500px;
+
+    /* width: auto;
+    height: max-content; */
+    margin-bottom: 20px;
+    padding: 20px;
+    /* float: left; */
+}
+
+.card-slide{
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+    border-radius: 18px;
+    font-size: 22px;
+    font-weight: bold;
+    color: #fff;
+    margin-left: 30px;
+}
+
+.card-slide img{
+    display: block;
+    width: 100%;
+    height: 500px;
+}
+
+.card-slide:nth-child(1n) {
+    background-color: rgb(206, 17, 17);
+}
+
+.card-slide:nth-child(2n) {
+    background-color: rgb(0, 140, 255);
+}
+
+.card-slide:nth-child(3n) {
+    background-color: rgb(10, 184, 111);
+}
+
+.card-slide:nth-child(4n) {
+    background-color: rgb(211, 122, 7);
+}
+
+.card-slide:nth-child(5n) {
+    background-color: rgb(118, 163, 12);
+}
+
+.card-slide:nth-child(6n) {
+    background-color: rgb(180, 10, 47);
+}
+
+.card-slide:nth-child(7n) {
+    background-color: rgb(35, 99, 19);
+}
+
+.card-slide:nth-child(8n) {
+    background-color: rgb(0, 68, 255);
+}
+
+.card-slide:nth-child(9n) {
+    background-color: rgb(218, 12, 218);
+}
+
+.card-slide:nth-child(10n) {
+    background-color: rgb(54, 94, 77);
+}
+
+/* ------------------------printing end---------------------------- */
+
+
+
+
+/* ---------------------engraving_category------------------------- */
+
+.headline {
+    font-size: 3rem;
+    font-weight: 600;
+    color: #222;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    text-wrap: wrap;
+    width: 70%;
+    text-align: center;
+    display: inline-block;
+    font-family: Bebas Neue, Sans-serif, all system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.description {
+    font-size: 1.5rem;
+    line-height: 1.7;
+    color: white;
+    width: 80%;
+    text-align: center;
+    margin: auto;
+    display: inline-block;
+    font-family: sans-serif;
+}
+
+.mysticker {
+    /* width: auto;
+    height: 500px; */
+
+    width: auto;
+    height: max-content;
+    margin-bottom: 20px;
+    padding: 20px;
+    /* padding: 50px; */
+}
+
+.sticker {
+    background-position: center;
+    background-size: cover;
+    width: 500px;
+    height: 500px;
+
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sticker img {
+    display: block;
+    width: 100%;
+    height: 500px;
+    padding: 30px;
+}
+
+/* --------------------------engraving_category---------------------- */
+
+
+
+
+
+/* ------------------------------banner_category-------------------------------- */
+
+.headline {
+    font-size: 3rem;
+    font-weight: 600;
+    color: #222;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    text-wrap: wrap;
+    width: 70%;
+    text-align: center;
+    display: inline-block;
+    font-family: Bebas Neue, Sans-serif, all system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.description {
+    font-size: 1.5rem;
+    line-height: 1.7;
+    color: #555;
+    width: 80%;
+    text-align: center;
+    margin: auto;
+    display: inline-block;
+    font-family: sans-serif;
+}
+
+.mybanner {
+    width: auto;
+    height: 500px;
+    /* position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -150px;
+    margin-top: -150px; */
+}
+
+.banner {
+    background-position: center;
+    background-size: cover;
+    /* width: 700px; */
+}
+
+.banner img {
+    display: block;
+    width: 100%;
+    height: 500px;
+}
+
+/* -----------------------------banner_category------------------------------- */
+
+
+
+
+
+
+/* ---------------------------footer------------------------------------- */
+
+footer{
+    background: black;
+    /* height: auto; */
+    clear: both;
+    position: sticky;
+}
+
+.communication{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+    gap: 20px;
+    text-align: center;
+}
+
+.social-media{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: fit-content;
+}
+
+.social-media .social-app a{
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    background-color: rgb(37, 37, 37);
+    padding: 10px;
+    border-radius: 17px;
+    margin: 10px;
+    font-weight: bolder;
+}
+
+.social-media .social-app a:hover{
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    background-color: rgb(29, 2, 2);
+    padding: 10px;
+    border-radius: 17px;
+    box-sizing: border-box;
+    box-shadow: 0 0 10px;
+    font-weight: bolder;
+    transition: 0.3s;
+}
+
+.social-media .social-app a:active{
+    color: white;
+    background-color: rgb(37, 37, 37);
+    transition: 0.3s;
+    box-shadow: none;
+}
+
+.social-media .service-heading h2{
+    color: #fff;
+}
+
+
+footer h2{
+    text-wrap: nowrap;
+    color: #fff;
+}
+
+.social-app{
+    display: inline-block;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+/* ___our services___ */
+
+.service-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: fit-content;
+}
+
+.service-heading{
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+
+.service-content{
+    display: flex;
+    justify-content: space-around;
+    align-items: top;
+    margin-top: 0;
+    margin-bottom: 30px;
+    text-align: left;
+}
+
+.service-content ul li{
+    text-align: left;
+    color: #fff;
+    list-style: none;
+    padding-top: 20px;
+}
+
+.content{
+    display: inline-block;
+    margin-top: 0;
+    height: max-content;
+}
+
+.service-content .content ul li:hover{
+    color: rgb(207, 48, 48);
+    transition: 0.3s;
+    cursor: pointer;
+    padding: o;
+    margin: 0;
+    display: inline-block;
+}
+
+/* ---contact us--- */
+
+.social-heading{
+    display: inline-block;
+    margin: 20px;
+}   
+
+.social-num{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    text-align: center;
+    margin: 0;
+}
+
+.num1, .num2{
+    margin: 0;
+}
+
+.social-num .num2 ul li{
+    margin: 0;
+    padding: 10px 20px;
+    text-align: center;
+    list-style: none;
+}
+
+.social-media .social-num .num1 a{
+    background: none;
+    color: #fff;
+    margin: 0;
+    text-align: center;
+    text-wrap: nowrap;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 17px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: 10px;
+    font-weight: bolder;
+}
+
+.social-media .social-num .num2 ul{
+    background: none;
+    color: #fff;
+    margin: 0;
+    text-align: center;
+
+}
+
+.social-media .social-num .num2 ul li:hover{
+    cursor: pointer;
+    color: rgb(207, 48, 48);
+    background: none;
+    transition: 0.3s;
+}
+
+.social-num .num1 a:hover{
+    background: none;
+    transition: 0.3s;
+    color: rgb(207, 48, 48);
+    border: none;
+    box-sizing: none;
+    box-shadow: none;
+    transition: 0.3s;
+    box-sizing: border-box;
+    /* box-shadow: 0 0 10px; */
+    font-weight: bolder;
+}
+
+.social-num .num1 a:active{
+    color: white;
+    background-color: rgb(37, 37, 37);
+    transition: 0.3s;
+}
+
+.social-media .social-num .icon i{
+    color: white;
+    background: none;
+    display: inline;
+}
+
+span{
+    text-align: center;
+    color: #fff;
+}
+
+span p{
+    padding: 10px;
+    bottom: 0;
+}
