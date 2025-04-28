@@ -115,7 +115,7 @@ swiper-slide img {
 
 
 grid-container {
-    width: 100%;
+    width: auto;
     height: 500px;
     margin-left: auto;
     margin-right: auto;
@@ -190,7 +190,7 @@ grid-slide {
 }
 
 swiper-container .mycard{
-    width: auto;
+    width: 100%;
     height: 500px;
 
     /* width: auto;
@@ -280,7 +280,7 @@ swiper-container .mycard{
 .description {
     font-size: 1.5rem;
     line-height: 1.7;
-    color: #fff;
+    color: black;
     width: 80%;
     text-align: center;
     margin: auto;
