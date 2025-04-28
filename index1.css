@@ -278,10 +278,11 @@ swiper-container .mycard{
 }
 
 .description {
-    font-size: 1.5rem;
+   font-size: 1.5rem;
     line-height: 1.7;
-    color: #222;
-    width: 80%;
+    color: black;
+    text-decoration: wavy;
+    width: 70%;
     text-align: center;
     margin: auto;
     display: inline-block;
