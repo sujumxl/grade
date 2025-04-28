@@ -93,7 +93,6 @@ swiper-container {
     width: auto;
     height: fit-content;
     margin-bottom: 20px;
-    padding: min(2rem, 8%);
 }
 
 swiper-slide {
@@ -103,7 +102,6 @@ swiper-slide {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: min(2rem, 8%);
 }
 
 swiper-slide img {
