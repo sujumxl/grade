@@ -189,7 +189,7 @@ grid-slide {
     font-family: sans-serif;
 }
 
-.mycard{
+swiper-container .mycard{
     width: 700px;
     height: 500px;
 
