@@ -106,7 +106,7 @@ swiper-slide {
 
 swiper-slide img {
     display: block;
-    width: 100%;
+    width: auto;
     height: 50rem;
     object-fit: fill ;
 }
@@ -126,7 +126,7 @@ grid-slide {
     font-size: 18px;
     background: #fff;
     height: calc((100% - 30px) / 2) !important;
-    width: min(90%, 8%);
+    width: auto;
 
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
